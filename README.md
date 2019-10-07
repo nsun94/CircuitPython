@@ -1,1 +1,1 @@
-# CircuitPython Stuff
+These are my circuit python assignments
