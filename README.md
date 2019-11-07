@@ -7,8 +7,7 @@ These are my circuit python assignments
 In this assignment I learned the basicsa of a new coding language. The Metro itself functions really similarly to an arduino. The metro has a cool little RGB LED that you can change the color of with code. The objective of this assignment was to get the built in LED to fade in and out. 
 
 ### Pictures 
-Insert image
-
+![GitHub HelloCircuitPython](media/hellocircuitpython.png)
 ## Lessons
 I Learned the basics of a completely new coding language. Using commands like making a PWM object and duty cycle. I learned how to change the brightness of the LED. This assignment was a big learning curve because it was new to me. 
 
@@ -16,8 +15,7 @@ I Learned the basics of a completely new coding language. Using commands like ma
 In this assignment I used capacitive touch to make a servo turn. We have to get it so that there are two wires controlling the servo, when you touch the left wire the servo turns to the left, when you touch the right wire the servo turns to the right. 
 ## Pictures
 
-insert picture
-
+![GitHub CapacitiveTouch](media/capacitivetouch.png)
 ## Lessons
 Before this I had no clue what capacitive touch was and how to implement it into my engineering. Capacitive touch is when you complete the circuit by touching a wire. I also learned about duty cycle. Duty cycle is the amount of time that the pulses stay high.
 
