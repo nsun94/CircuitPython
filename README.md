@@ -7,7 +7,9 @@ These are my circuit python assignments
 In this assignment I learned the basicsa of a new coding language. The Metro itself functions really similarly to an arduino. The metro has a cool little RGB LED that you can change the color of with code. The objective of this assignment was to get the built in LED to fade in and out. 
 
 ### Pictures 
-![GitHub HelloCircuitPython](Media/hellocircuitpython.jpg)
+![GitHub HelloCircuitPython](Media/HelloCircuitPython.png)
+
+
 ## Lessons
 I Learned the basics of a completely new coding language. Using commands like making a PWM object and duty cycle. I learned how to change the brightness of the LED. This assignment was a big learning curve because it was new to me. 
 
@@ -15,7 +17,8 @@ I Learned the basics of a completely new coding language. Using commands like ma
 In this assignment I used capacitive touch to make a servo turn. We have to get it so that there are two wires controlling the servo, when you touch the left wire the servo turns to the left, when you touch the right wire the servo turns to the right. 
 ## Pictures
 
-![GitHub CapacitiveTouch](Media/capacitivetouch.jpg)
+![GitHub CapacitiveTouch](Media/CapacitiveTouch.png)
+
 ## Lessons
 Before this I had no clue what capacitive touch was and how to implement it into my engineering. Capacitive touch is when you complete the circuit by touching a wire. I also learned about duty cycle. Duty cycle is the amount of time that the pulses stay high.
 
@@ -52,6 +55,7 @@ Insert Pictures
 ## Lesson
 In this assignment I learned how to represent distance with a color of an LED. I also learned how to program an HC-SR04 on circuitpython.
 
+
 # Classes Objects and Modules
 
 ## In this assignment we had to create a class and import it into our code that changed the color of an LED
@@ -65,13 +69,54 @@ I learned how to use classes, object and modules. I also learned how importing c
 
 # hello VS code
 
+## Code
+import board
+import time
+import pulseio
+from digitalio import DigitalInOut, Direction, Pull
+
+
+
+class RGB:
+    def __init__(self, r, g, b):
+        self.r = DigitalInOut(r)
+        self.r.direction = Direction.OUTPUT
+        self.g = DigitalInOut(g)
+        self.g.direction = Direction.OUTPUT
+        self.b = DigitalInOut(b)
+        self.b.direction = Direction.OUTPUT
+    def red(self):
+        self.r.value = False
+        self.g.value = True
+        self.b.value = True
+    def green(self):
+        self.g.value = False
+        self.b.value = True
+        self.r.value = True
+    def blue(self):
+        self.b.value = False
+        self.g.value = True
+        self.r.value = True
+    def cyan(self):
+        self.g.value = False
+        self.b.value = False
+        self.r.value = True
+    def magenta(self):
+        self.r.value = False
+        self.b.value = False
+        self.g.value = True
+    def yellow(self):
+        self.b.value = True
+        self.g.value = False
+        self.r.value = False
+
 ## Assignment
 In this assignment we had to learn the basics of VS code and import it to our GitHub
 
 ## pictures 
 insert Pictures
 
-#Lesson
+# Lesson
 In this assignment we learned how to use vs code and push code from vs code to gihub.
 
 
