@@ -39,7 +39,7 @@ In this assignment I learned how to control the direction of the numbers. This w
 In this assignment we used a photointerrupter to count the number of interruptions in a 4 second span.
 
 ## Pictures
-insert picture
+![GitHub Photointerrupter](Media/Photointerrupter.png)
 
 ## Lessons
 In this assignment I learned how to code a photointerrupter using circuitpython. I also learned how to use time.monotonic(0) instead of time.sleep.
