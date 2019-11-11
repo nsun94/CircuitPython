@@ -28,7 +28,7 @@ Before this I had no clue what capacitive touch was and how to implement it into
 In this assignment I used a 2 buttons and an LCD screen. One button switched the direction the numbers were counting. The other button just counted in the corresponding direction.
 
 ## Pictures
-Insert pictures 
+![GitHub CircuitPythonLCD](Media/CircuitPythonLCD.png)
 
 ## Lessons 
 In this assignment I learned how to control the direction of the numbers. This was similar to an assignment I did last year but using circuitpython instead of Arduino.
