@@ -50,7 +50,7 @@ In this assignment I learned how to code a photointerrupter using circuitpython.
 in this assignment we used a HC-SR04 to calculate distacne and have the distance correspond with a LED color.
 
 ## pictures
-Insert Pictures
+![GitHub DistanceSensor](Media/DistanceSensor.png) 
 
 ## Lesson
 In this assignment I learned how to represent distance with a color of an LED. I also learned how to program an HC-SR04 on circuitpython.
@@ -62,7 +62,7 @@ In this assignment I learned how to represent distance with a color of an LED. I
 
 ## pictures
 
-Insert pictures
+![GitHub ClassObjMod](Media/ClassObjMod.png)
 
 # Lesson 
 I learned how to use classes, object and modules. I also learned how importing classes works.
