@@ -76,45 +76,9 @@ import pulseio
 from digitalio import DigitalInOut, Direction, Pull
 
 
-
-class RGB:
-    def __init__(self, r, g, b):
-        self.r = DigitalInOut(r)
-        self.r.direction = Direction.OUTPUT
-        self.g = DigitalInOut(g)
-        self.g.direction = Direction.OUTPUT
-        self.b = DigitalInOut(b)
-        self.b.direction = Direction.OUTPUT
-    def red(self):
-        self.r.value = False
-        self.g.value = True
-        self.b.value = True
-    def green(self):
-        self.g.value = False
-        self.b.value = True
-        self.r.value = True
-    def blue(self):
-        self.b.value = False
-        self.g.value = True
-        self.r.value = True
-    def cyan(self):
-        self.g.value = False
-        self.b.value = False
-        self.r.value = True
-    def magenta(self):
-        self.r.value = False
-        self.b.value = False
-        self.g.value = True
-    def yellow(self):
-        self.b.value = True
-        self.g.value = False
-        self.r.value = False
-
 ## Assignment
 In this assignment we had to learn the basics of VS code and import it to our GitHub
 
-## pictures 
-insert Pictures
 
 # Lesson
 In this assignment we learned how to use vs code and push code from vs code to gihub.
