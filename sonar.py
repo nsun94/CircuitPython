@@ -1,6 +1,6 @@
 import time
 
-import board
+import board 
 import neopixel
 from adafruit_hcsr04 import HCSR04
 import adafruit_hcsr04
