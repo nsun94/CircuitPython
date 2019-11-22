@@ -83,4 +83,13 @@ In this assignment we had to learn the basics of VS code and import it to our Gi
 # Lesson
 In this assignment we learned how to use vs code and push code from vs code to gihub.
 
+# Fancy LED 
 
+## Assignment
+In this assignment I further strengthened my knowledge on creating and importing classes. I created a class that had all the code needed to make 6 LED's go through a sequence of chasing, blinking, alternating and sparkling. We use use long classes so that we can import them into our code, making the code very concise. 
+
+# Lesson 
+In the assignment I got better at making classes. I learned the true purpose of classes, to make code concise. 
+
+## Pictures
+![GitHub fancyled](Media/fancyled.png)
