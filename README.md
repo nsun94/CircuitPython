@@ -92,4 +92,4 @@ In this assignment I further strengthened my knowledge on creating and importing
 In the assignment I got better at making classes. I learned the true purpose of classes, to make code concise. 
 
 ## Pictures
-![GitHub fancyled](Media/fancyled.png)
+![GitHub FancyLED](Media/FancyLED.png)
